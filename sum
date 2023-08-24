@@ -1,0 +1,12 @@
+import Foundation
+
+	func sum(nums:[Int])-> Int{
+	 var result = 0
+	 for num in nums {
+	  result += num
+	 }
+	 return(result)
+}
+
+let sum1 = sum(nums: [10,11,12])
+print(sum1)

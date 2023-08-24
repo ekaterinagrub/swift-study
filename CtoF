@@ -1,0 +1,10 @@
+import Foundation
+
+let CtoF:(Double)->()={ctemp in
+    let ftemp = String(format: "%.2f",ctemp*33.8)
+    print("\(ctemp) Celsius is equivalent to \(ftemp) Farhrenheit")
+}
+
+let number = readLine()!
+
+CtoF(Double(number)!)
